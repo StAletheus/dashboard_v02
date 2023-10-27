@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'  # replace with your actual API key
+openai.api_key = '.....'  # replace with your actual API key
 
 def get_models():
     response = openai.Model.list()
